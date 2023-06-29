@@ -134,7 +134,7 @@ async def yas(client, message):
 )
 async def huhh(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://b.top4top.io/p_2682mb2f41.jpg",
+        photo=f"https://j.top4top.io/p_273634wmy1.jpg",
         caption=f"""**𝐿𝐾 ダ source ↜**\nمرحبا بك عزيزي {message.from_user.mention} في قسم الذكاء الاصتناعي الخاص بسورس المملكه\nلتتمكن من استخدام اوامر الذكاء الاصتناعي اكتب \n /gpt + السؤال بالاسفل👇\n**𝐿𝐾 ダ source ↜**""",
         reply_markup=InlineKeyboardMarkup(
             [
@@ -162,7 +162,7 @@ async def huhh(client: Client, message: Message):
 )
 async def huhh(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://b.top4top.io/p_2682mb2f41.jpg",
+        photo=f"https://j.top4top.io/p_273634wmy1.jpg",
         caption=f"""**𝐿𝐾 ダ source ↜**\nمرحبا بك عزيزي {message.from_user.mention} في قسم تشغيل القرأن الخاص بسورس المملكه\nلتتمكن من استخدام اوامر القرأن اكتب \n سورة + اسم السورة بالاسفل👇\n**𝐿𝐾 ダ source ↜**""",
         reply_markup=InlineKeyboardMarkup(
             [
