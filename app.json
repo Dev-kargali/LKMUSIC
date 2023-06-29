@@ -1,7 +1,7 @@
 {
-    "name": "ᴀɴᴏɴ ダ ᴍᴜsɪᴄ",
+    "name": "𝐿𝐾 ダ ᴍᴜsɪᴄ",
     "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
-    "logo": "https://telegra.ph/file/56d1760224589ee370186.jpg",
+    "logo": "https://graph.org/file/cf618d77e4823b6eeeead.jpg",
     "keywords": [
     "python3",
     "telegram",
@@ -13,27 +13,27 @@
     ],
     "env": {
       "API_ID": {
-        "description": "Get this value from https://my.telegram.org",
+        "description": "قم بوضع الايبي ايدي هنا",
         "value": "1747534",
         "required": true
       },
       "USER_OWNER": {
-        "description": "Your user",
-        "value": "https://e.top4top.io/p_27331r5n31.jpg",
+        "description": "يوزر المطور بدون @",
+        "value": "https://graph.org/file/4b3ce8a48b8c027252f8e.jpg",
         "required": true
       },
       "START_IMG_URL": {
         "description": "pic your bot",
-        "value": "https://telegra.ph/file/df8c9227ef4511aed9dd0.jpg",
+        "value": "https://graph.org/file/1ae6f9539a0bca28db5cc.jpg",
         "required": true
       },
       "API_HASH": {
-        "description": "Get this value from https://my.telegram.org",
+        "description": "قم بوضع الايبي هاش",
         "value": "5a2684512006853f2e48aca9652d83ea",
         "required": true
       },
       "BOT_TOKEN": {
-        "description": "A Bot's token from Botfather",
+        "description": "قم بوضع توكن البوت الخاص بك هنا",
         "value": "6263074417:AAFH170jmvECjc1WaTNNukjSS-Ad50gbhVc",
         "required": true
       },
@@ -44,21 +44,21 @@
       },
       "MUSIC_BOT_NAME": {
         "description": "A name for your Music Bot. You can use special characters bot ko jhaat farak ni padega",
-        "value": "ᴀɴᴏɴ ダ ᴍᴜsɪᴄ",
+        "value": "𝐿𝐾 ダ ᴍᴜsɪᴄ",
         "required": true
       },
       "OWNER_ID": {
-        "description": "The user id(s) of user(s) whom you would like to add as a OWNER. Multiple values shall be seperated with a space.",
+        "description": "قم بوضع ايدي حسابك هنا",
         "value": "6275847466",
         "required": true
       },
       "STRING_SESSION": {
-        "description": "A Pyrogram String Session. One Assistant is Compulsory.",
+        "description": "قم بوضع كود جلسه البايروجرام",
         "value": "BAAhIHQAHuauxQHiZT8f721r4sGcC2gBgFQW8f4Us-JDJNsQtD3qUTZZ0aDsyquZ2TsIcDF33CWTjXGvNP5GIK9szulT0Pz4rT7q57q7AV083qNnvEfFfh1YGnBNOSwbBa_uVZco_zlk1AekyAV8ipS4lNa5KqrCWuF6Fxm8OpfV1VCiNAI6zTQdNFNrgJBm_hI8sdLGXos6inormyPX1d9IBIwkfizCmM2dJ1YGVtvJh0KtGwkWUHgYEknfPZk0XaMKuQREaq8MNo5dkat5Akj0tOFS573n0lseF0Gk3vwtgyWi8VNB750GxXY-YhV02F0yEZuXi2l0wpw7T0M67BHMvIakygAAAAFhguqrAA",
         "required": true
       },
       "HEROKU_API_KEY": {
-        "description": "Your Heroku account's API key",
+        "description": "قم بوضع ايبي حسابك هيروكو",
         "value": "d9a23be7-206e-435a-ba18-6085484ce67b",
         "required": false
       },
