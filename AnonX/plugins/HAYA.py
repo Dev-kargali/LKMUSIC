@@ -19,7 +19,7 @@ from random import  choice, randint
 )
 async def huhh(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://b.top4top.io/p_2682mb2f41.jpg",
+        photo=f"https://j.top4top.io/p_273634wmy1.jpg",
         caption=f"""*𝐿𝐾 ダ ᴍᴜsɪᴄ source ↜**\nمرحبا بك عزيزي {message.from_user.mention} في قسم مطورين المملكه ميوزك\nللتحدث مع مطورين اضغط علي الازرار بالاسفل👇\n**𝐿𝐾 ダ ᴍᴜsɪᴄ source ↜**""",
         reply_markup=InlineKeyboardMarkup(
             [
