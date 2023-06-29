@@ -14,19 +14,19 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 PIC_START = getenv("PIC_START")
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID"))
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "HaYa ダ ᴍᴜsɪᴄ")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "𝐿𝐾 ダ ᴍᴜsɪᴄ")
 
-OWNER_ID = list(map(int, getenv("OWNER_ID", "6275847466").split()))
+OWNER_ID = list(map(int, getenv("OWNER_ID", "5720210855").split()))
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 USER_OWNER = getenv("USER_OWNER","bp_bp")
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/ma7amad2000/HAYA01")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/Dev-kargali/LKMUSIC")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/HL_BG")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/HL_BG")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/L_B_K1")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/L_K_G1")
 
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
 
@@ -84,27 +84,27 @@ PING_IMG_URL = getenv(
     "PIC_START",
 )
 
-PLAYLIST_IMG_URL = "https://i.top4top.io/p_2729n1wub1.jpg"
+PLAYLIST_IMG_URL = "https://graph.org/file/415779b77a12441637d8e.jpg"
 
-GLOBAL_IMG_URL = "https://i.top4top.io/p_2729n1wub1.jpg"
+GLOBAL_IMG_URL = "https://graph.org/file/415779b77a12441637d8e.jpg"
 
 STATS_IMG_URL = getenv("PIC_START")
 
-TELEGRAM_AUDIO_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
+TELEGRAM_AUDIO_URL = "https://graph.org/file/7c2298a2ef86d29ab8589.jpg"
 
-TELEGRAM_VIDEO_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
+TELEGRAM_VIDEO_URL = "https://graph.org/file/7c2298a2ef86d29ab8589.jpg"
 
-STREAM_IMG_URL = "https://te.legra.ph/file/bd995b032b6bd263e2cc9.jpg"
+STREAM_IMG_URL = "https://telegra.ph/file/56d1760224589ee370186.jpg"
 
 SOUNCLOUD_IMG_URL = "https://te.legra.ph/file/bb0ff85f2dd44070ea519.jpg"
 
-YOUTUBE_IMG_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
+YOUTUBE_IMG_URL = "https://telegra.ph/file/56d1760224589ee370186.jpg"
 
-SPOTIFY_ARTIST_IMG_URL = "https://te.legra.ph/file/37d163a2f75e0d3b403d6.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/f088f33226badc5154285.jpg"
 
-SPOTIFY_ALBUM_IMG_URL = "https://te.legra.ph/file/b35fd1dfca73b950b1b05.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/f088f33226badc5154285.jpg"
 
-SPOTIFY_PLAYLIST_IMG_URL = "https://te.legra.ph/file/95b3ca7993bbfaf993dcb.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/f088f33226badc5154285.jpg"
 
 
 def time_to_seconds(time):
