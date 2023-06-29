@@ -178,7 +178,7 @@ async def top_users_ten(client, CallbackQuery: CallbackQuery, _):
                 details = stats.get(items)
                 title = (details["title"][:35]).title()
                 if items == "telegram":
-                    msg += f"🍒 [𓏺𝙎𝙊𝙐𝙍𝘾𝞝 𝙃𝘼𝙔𝘼](https://t.me/HL_BG) ** التشفيل {count} الوقت**\n\n"
+                    msg += f"🍒 [𝐿𝐾 ダ ᴍᴜsɪᴄ source ↜](https://t.me/L_b_k1) ** التشفيل {count} الوقت**\n\n"
                 else:
                     msg += f"📌 [{title}](https://www.youtube.com/watch?v={items}) ** ᴩʟᴀʏᴇᴅ {count} ᴛɪᴍᴇs**\n\n"
 
