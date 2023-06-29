@@ -158,7 +158,7 @@ async def start_comm(client, message: Message, _):
                 published = result["publishedTime"]
             searched_text = f"""
 😲**جلب المعلومات**😲
- 𓏺𝙎𝙊𝙐𝙍𝘾𝞝 𝙃𝘼𝙔𝘼
+ 𝐿𝐾 ダ ᴍᴜsɪᴄ source ↜
 📌 **العنوان:** {title}
 
 ⏳ **المده:** {duration} دقيقه
@@ -167,7 +167,7 @@ async def start_comm(client, message: Message, _):
 🎥 **القناه:** {channel}
 📎 **رابط القناه:** [عرض القناه]({channellink})
 🔗 **الرابط:** [مشاهده في اليوتيوب]({link})
- 𓏺𝙎𝙊𝙐𝙍𝘾𝞝 𝙃𝘼𝙔𝘼
+ 𝐿𝐾 ダ ᴍᴜsɪᴄ source ↜
 💖 بحث بواسطة {config.MUSIC_BOT_NAME}"""
             key = InlineKeyboardMarkup(
                 [
