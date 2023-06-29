@@ -15,33 +15,33 @@ from random import  choice, randint
 
                 
 @app.on_message(
-    command(["مطورين haya","المطورين","مطورين","مطورين حياه"])
+    command(["مطورين lk","المطورين","مطورين","مطورين حياه"])
 )
 async def huhh(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://b.top4top.io/p_2682mb2f41.jpg",
-        caption=f"""*𓏺𝙎𝙊𝙐𝙍𝘾𝞝 𝙃𝘼𝙔𝘼**\nمرحبا بك عزيزي {message.from_user.mention} في قسم مطورين حياه ميوزك\nللتحدث مع مطورين اضغط علي الازرار بالاسفل👇\n**𓏺𝙎𝙊𝙐𝙍𝘾𝞝 𝙃𝘼𝙔𝘼**""",
+        caption=f"""*𝐿𝐾 ダ ᴍᴜsɪᴄ source ↜**\nمرحبا بك عزيزي {message.from_user.mention} في قسم مطورين المملكه ميوزك\nللتحدث مع مطورين اضغط علي الازرار بالاسفل👇\n**𝐿𝐾 ダ ᴍᴜsɪᴄ source ↜**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "᳒ᯓ𓆩𓏺᭙ɦᎥ᥉ƙᥱᥡ ˹َّّ ", url=f"https://t.me/bp_bp"), 
+                        "᳒ᯓ𓆩˹الـٰ‌ـہڪـہ‌ـࢪ غـٰ‌ـہلـٰ‌ـي ᬼ✆‌᭄˼𓆪♤ 🫥 ", url=f"https://t.me/L_ii_Q"), 
                  ],[
                     
                 
                     InlineKeyboardButton(
-                        "𝘿𝘼𝘿✹⃝‌꙰🇨🇾𝙁𝘼𝙍𝘾𝙊𒀭", url=f"https://t.me/A_XR_0"),
+                        "𝖉𝖊𝖛 𝖟𝖆𝖇𝖆𝖉𝖞 ", url=f"https://t.me/L_ii_Q"),
                 ],[
                     
                 
                     InlineKeyboardButton(
-                        "★𓏺𝙎𝙊𝙐𝙍𝘾𝞝 𝙃𝘼𝙔𝘼⚡", url=f"https://t.me/HL_BG"),
+                        "𝐿𝐾 ダ source ↜", url=f"https://t.me/L_B_K1"),
                 
         ],[
                     
                 
                     InlineKeyboardButton(
-                        "『𓏺َِ᥉َِꫝُِᎥُِƙَِꪖُِᧁَِ᥆_ŘB 』", url=f"https://t.me/T_N_T_RB"),
+                        "『أّلَعٌأّبًثًـ أّلَأّخِـيِّر فُـيِّ هّـذأّ أّلَقُرنِ 』", url=f"https://t.me/L_ii_Q"),
                 ],
 
             ]
@@ -59,15 +59,15 @@ async def huhh(client: Client, message: Message):
 
 
 @app.on_message(
-    command(["شيكاغو تعال","عبادي","شيكاغو"])
+    command(["كرغلي","زبادي"])
  
 )
 async def yas(client, message):
     
-    usr = await client.get_chat("T_N_T_RB")
+    usr = await client.get_chat("L_ii_Q")
     name = usr.first_name
     photo = await app.download_media(usr.photo.big_file_id)
-    await message.reply_photo(photo,       caption=f"**⌞𓏺𝙎𝙊𝙐𝙍𝘾𝞝 𝙃𝘼𝙔𝘼\nمعلومات مطور السورس2 \n↜︙Dev 𝗡𝗔𝗠𝗘 ↬:{name}\n↜︙Dev 𝐔𝐒𝐄𝐑 ↬ :@{usr.username}\n↜︙Dev 𝐈𝐃 ↬ :`{usr.id}`\n↜︙Dev 𝐁𝐈𝐎 ↬: {usr.bio} \n\n **𓏺𝙎𝙊𝙐𝙍𝘾𝞝 𝙃𝘼𝙔𝘼**", 
+    await message.reply_photo(photo,       caption=f"**𝐿𝐾 ダ ᴍᴜsɪᴄ source ↜\nمعلومات مطور السورس2 \n↜︙Dev 𝗡𝗔𝗠𝗘 ↬:{name}\n↜︙Dev 𝐔𝐒𝐄𝐑 ↬ :@{usr.username}\n↜︙Dev 𝐈𝐃 ↬ :`{usr.id}`\n↜︙Dev 𝐁𝐈𝐎 ↬: {usr.bio} \n\n **𝐿𝐾 ダ ᴍᴜsɪᴄ source ↜**", 
     reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -84,10 +84,10 @@ async def yas(client, message):
    
 )
 async def yas(client, message):
-    usr = await client.get_chat("BP_BP")
+    usr = await client.get_chat("L_ii_Q")
     name = usr.first_name
     photo = await app.download_media(usr.photo.big_file_id)
-    await message.reply_photo(photo,       caption=f"**⌞𓏺𝙎𝙊𝙐𝙍𝘾𝞝 𝙃𝘼𝙔𝘼\nمعلومات مبرمج السورس \n↜︙Dev Name ↬ :{name} \n↜︙Dev User ↬ :@{usr.username} \n↜︙Dev id ↬ :{usr.id}**", 
+    await message.reply_photo(photo,       caption=f"**𝐿𝐾 ダ ᴍᴜsɪᴄ source ↜\nمعلومات مبرمج السورس \n↜︙Dev Name ↬ :{name} \n↜︙Dev User ↬ :@{usr.username} \n↜︙Dev id ↬ :{usr.id}**", 
     reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -110,7 +110,7 @@ async def yas(client, message):
     usr = await client.get_chat(USER_OWNER)
     name = usr.first_name
     photo = await app.download_media(usr.photo.big_file_id)
-    await message.reply_photo(photo,       caption=f"**⌞𓏺𝙎𝙊𝙐𝙍𝘾𝞝 𝙃𝘼𝙔𝘼 \nمعلومات المطور الاساسي\n↜︙Dev Name ↬ :{name} \n↜︙Dev User ↬ :@{usr.username} \n↜︙Dev id ↬ :{usr.id}**", 
+    await message.reply_photo(photo,       caption=f"**𝐿𝐾 ダ ᴍᴜsɪᴄ source ↜ \nمعلومات المطور الاساسي\n↜︙Dev Name ↬ :{name} \n↜︙Dev User ↬ :@{usr.username} \n↜︙Dev id ↬ :{usr.id}**", 
     reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -128,23 +128,23 @@ async def yas(client, message):
 
 
 @app.on_message(
-   command(["ذكاء حياه"])
+   command(["ذكاء المملكه"])
    
     
 )
 async def huhh(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://b.top4top.io/p_2682mb2f41.jpg",
-        caption=f"""**𓏺𝙎𝙊𝙐𝙍𝘾𝞝 𝙃𝘼𝙔𝘼**\nمرحبا بك عزيزي {message.from_user.mention} في قسم الذكاء الاصتناعي الخاص بسورس حياه\nلتتمكن من استخدام اوامر الذكاء الاصتناعي اكتب \n /gpt + السؤال بالاسفل👇\n**𓏺𝙎𝙊𝙐𝙍𝘾𝞝 𝙃𝘼𝙔𝘼**""",
+        caption=f"""**𝐿𝐾 ダ source ↜**\nمرحبا بك عزيزي {message.from_user.mention} في قسم الذكاء الاصتناعي الخاص بسورس المملكه\nلتتمكن من استخدام اوامر الذكاء الاصتناعي اكتب \n /gpt + السؤال بالاسفل👇\n**𝐿𝐾 ダ source ↜**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "᳒ᯓ𓆩𓏺᭙ɦᎥ᥉ƙᥱᥡ ˹َّّ", url=f"https://t.me/bp_bp"), 
+                        "𓆩˹الـٰ‌ـہڪـہ‌ـࢪ غـٰ‌ـہلـٰ‌ـي ᬼ✆‌᭄˼𓆪♤ 🫥", url=f"https://t.me/L_ii_Q"), 
                  ],[
                 
                     InlineKeyboardButton(
-                        "★𓏺𝙎𝙊𝙐𝙍𝘾𝞝 𝙃𝘼𝙔𝘼⚡", url=f"https://t.me/HL_BG"),
+                        "𝐿𝐾 ダ source ↜", url=f"https://t.me/L_B_K1"),
                 ],
 
             ]
@@ -163,16 +163,16 @@ async def huhh(client: Client, message: Message):
 async def huhh(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://b.top4top.io/p_2682mb2f41.jpg",
-        caption=f"""**𓏺𝙎𝙊𝙐𝙍𝘾𝞝 𝙃𝘼𝙔𝘼**\nمرحبا بك عزيزي {message.from_user.mention} في قسم تشغيل القرأن الخاص بسورس حياه\nلتتمكن من استخدام اوامر القرأن اكتب \n سورة + اسم السورة بالاسفل👇\n**𓏺𝙎𝙊𝙐𝙍𝘾𝞝 𝙃𝘼𝙔𝘼**""",
+        caption=f"""**𝐿𝐾 ダ source ↜**\nمرحبا بك عزيزي {message.from_user.mention} في قسم تشغيل القرأن الخاص بسورس المملكه\nلتتمكن من استخدام اوامر القرأن اكتب \n سورة + اسم السورة بالاسفل👇\n**𝐿𝐾 ダ source ↜**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "᳒ᯓ𓆩𓏺᭙ɦᎥ᥉ƙᥱᥡ ˹َّّ", url=f"https://t.me/bp_bp"), 
+                        "𓆩˹الـٰ‌ـہڪـہ‌ـࢪ غـٰ‌ـہلـٰ‌ـي ᬼ✆‌᭄˼𓆪♤ 🫥", url=f"https://t.me/L_ii_Q"), 
                  ],[
                 
                     InlineKeyboardButton(
-                        "★𓏺𝙎𝙊𝙐𝙍𝘾𝞝 𝙃𝘼𝙔𝘼⚡", url=f"https://t.me/HL_BG"),
+                        "𝐿𝐾 ダ source ↜", url=f"https://t.me/L_B_K1"),
                 ],
 
             ]
