@@ -36,7 +36,7 @@ class AnonXBot(Client):
         LOGGER(__name__).info(f"MusicBot Started as {self.name}")
         try:
             await self.send_message(
-                config.LOG_GROUP_ID, f"**» {config.MUSIC_BOT_NAME} تم تشغيل البوت على 𓏺𝙎𝙊𝙐𝙍𝘾𝞝 𝙃𝘼𝙔𝘼 بنجاح:**\n\n✨ ɪᴅ : `{self.id}`\n❄ الاسم : {self.name}\n💫 المعرف : @{self.username}"
+                config.LOG_GROUP_ID, f"**» {config.MUSIC_BOT_NAME} تم تشغيل البوت على 𝐿𝐾 ダ ᴍᴜsɪᴄ source ↜ بنجاح:**\n\n✨ ɪᴅ : `{self.id}`\n❄ الاسم : {self.name}\n💫 المعرف : @{self.username}"
             )
         except:
             LOGGER(__name__).error(
