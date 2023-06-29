@@ -69,7 +69,7 @@ source_ch = "UIU_II"
 
 
 
-start_text = "**welcome {} , its just a test bot √**"
+start_text = "**اهلا عزيزي {} , افضل بوت اغاني و حمايه في التلجرام يشتغل قنوات و مجموعات √**"
 
 
 
