@@ -10,22 +10,22 @@ async def huhh(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://graph.org/file/cf618d77e4823b6eeeead.jpg",
         caption=f"""
- [𓏺𝙎𝙊𝙐𝙍𝘾𝞝 𝙃𝘼𝙔𝘼](https://t.me/L_B_K1)
+ [𝐿𝐾 ダ ᴍᴜsɪᴄ source ↜](https://t.me/L_B_K1)
  —————————————
- [𓏺𝙒𝙃𝙄𝙎𝙆𓏺𝙎𝞝𝙔](https://t.me/L_ii_Q)
+ [المطور](https://t.me/L_ii_Q)
  
  [𓏺𝙂𝙍𝙊𝙐𝙋 𝙃𝞝𝙇𝙋](https://t.me/L_K_G1)
   
- [⍟𓏺𝙒𝞝𝙇𝘾𝙊𝙈𝙀 𝙏𝙊 𓏺𝙎𝙊𝙐𝙍𝘾𝞝 𝙃𝘼𝙔𝘼](https://t.me/L_B_K1)
+ [𝐖𝐄𝐋𝐂𝐎𝐌𝐄 𝐓𝐎 𝐒𝐎𝐔𝐑𝐂𝐄 𝐋𝐈𝐁𝐘𝐀𝐍 𝐊𝐈𝐍𝐆𝐃𝐎𝐌 .](https://t.me/L_B_K1)
 """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "𝙒𝙃𝙄𝙎𝙆𓏺𝙎𝞝𝙔♡", url=f"https://t.me/L_ii_Q"), 
+                        "المطور", url=f"https://t.me/L_ii_Q"), 
                 ],[
                     InlineKeyboardButton(
-                        "𓏺𝙎𝙊𝙐𝙍𝘾𝞝 𝙃𝘼𝙔𝘼", url=f"t.me/L_B_K1"),
+                        "𝐿𝐾 ダ ᴍᴜsɪᴄ source ↜", url=f"t.me/L_B_K1"),
                 ],
 
             ]
